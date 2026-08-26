@@ -1,0 +1,8 @@
+# Google C++ Style Guide formatting.
+# https://google.github.io/styleguide/cppguide.html
+BasedOnStyle: Google
+
+# Deviation: include order is load-bearing in Arduino/PlatformIO sources
+# (e.g. Arduino.h must precede headers that depend on its types), so
+# clang-format must not regroup or reorder #include directives.
+SortIncludes: false

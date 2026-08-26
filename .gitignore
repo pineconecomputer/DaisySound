@@ -1,0 +1,13 @@
+# PlatformIO build output and downloaded toolchains/libraries
+.pio/
+
+# IDE / editor metadata
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# OS cruft
+.DS_Store
+Thumbs.db
